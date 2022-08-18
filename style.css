@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;0,900;1,200;1,500;1,800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--primary-color: #DC2F2E;
+}
+
+body {
+	font-family: 'Raleway', San Serif;
+	color: #000;
+	background-color: #f4f8fb;
+}
+
+.container {
+	padding: 0 2rem;
+}
+
+.header-title {
+	font-size: 24px;
+	text-align: center;
+	color: var(--primary-color);
+	padding: 35px 0;
+}
+
+nav {
+	background-color: #fff;
+	padding: 2rem 0;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul > li {
+	display: inline;
+	list-style: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	padding: 8px 16px;
+}
+
+.items {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-grow: 8;
+}
+.item {
+	border-radius: 4px;
+	margin: 32px 16px 16px 16px;
+	background-color: #fff;
+	padding: 1rem;
+	box-shadow: 8px 14px 38px rgb(39 44 49 / 6%), 1px 3px 8px rgb(39 44 49 / 3%);
+	text-decoration: none;
+	transition: all .2s ease;
+}
+
+.item-body {
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+p {
+  font-size: 18px;
+  color: #000000;
+}
+
+.item:hover {
+	box-shadow: 8px 14px 38px rgb(39 44 49 / 6%), 1px 3px 8px rgb(39 44 49 / 3%);
+	transform: translate3D(0, -1px, 0) scale(1.1);
+	transition: all .2s ease;
+}
+.item-img {
+	width: 200px;
+	height: 200px;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+}
+.contact{
+  display: flex;
+}
+.contact:hover{
+  transform: none;
+}
+.contact .item-body{
+  margin-left: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
